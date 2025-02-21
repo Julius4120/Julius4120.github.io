@@ -6,7 +6,7 @@ from twilio.rest import Client
 # Case study is TESLA
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-api_key = "DWR274ZBNR0MV61Y"
+api_key = "***************"
 
 acct_sid = os.environ.get("ovm_acct_sid")
 
@@ -19,19 +19,6 @@ auth_token = os.environ.get("ovm_auth_token")
 
 ## STEP 3: Use https://www.twilio.com
 # Send a separate message with the percentage change and each article's title and description to your phone number.
-
-
-#Optional: Format the SMS message like this: 
-"""
-TSLA: 🔺2%
-Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?.
-Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
-or
-"TSLA: 🔻5%
-Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
-Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
-"""
-
 
 def percentage_calc() :
     diff = yesterday - day_before
@@ -61,7 +48,7 @@ day_before = float(my_data[1]["4. close"])
 
 #Getting latest stock news on newsapi
 parameters = {
-    "apiKey": "c09f459375e249fea7f72d57a0ae4da6",
+    "apiKey": ***************,
     "q": COMPANY_NAME,
     "language":"en",
     "from": time[5],
@@ -93,8 +80,8 @@ if percentage_calc() > 2 :
     my_client = Client(acct_sid, auth_token)
     message = my_client.messages.create(
         body=sms_message,
-        from_="+16206229217",
-        to="+2349160707115",
+        from_="*********",
+        to="*************",
     )
     print(message.status)
     print("sms sent successfully")
