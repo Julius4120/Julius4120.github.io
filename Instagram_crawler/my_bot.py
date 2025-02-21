@@ -6,9 +6,9 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 
-email = "opeayobello@gmail.com"
-password = "opeyemi234"
-chrome_driver_path = "C:/Development/chromedriver-win64/chromedriver.exe"
+email = email
+password = password
+chrome_driver_path = path
 service = Service(chrome_driver_path)
 
 
