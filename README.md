@@ -12,7 +12,7 @@ A collection of my Python projects, including web scraping, automation scripts, 
 - **[Price Tracker](https://github.com/Julius4120/Julius4120.github.io/blob/main/Price_tracker.py)** - Amazon price tracker, This script keeps checking the price of a specified product on Amazon and notifies my client through email when the price reaches their target price.
 - **[Instagram crawler](https://github.com/Julius4120/Julius4120.github.io/tree/main/Instagram_crawler)** - Instagram Crawler – The fastest way to gain followers is by following people who are genuinely interested in your content. This script automates that process! It can follow all the followers of a specific account based on user input—(handling up to 2,000 follows in less than 20 minutes).
 - **[Data Entry Automation](https://github.com/Julius4120/Julius4120.github.io/blob/main/Data_entry_automation.py)** - Automatically extracts data from a website and fills it into a Google Form. 🚀
-
+- **[Stock news alert](https://github.com/Julius4120/Julius4120.github.io/blob/main/Stock_news_alert.py)** - Automatic stock news alert using various API's
 
 ## 💻 Technologies Used:
 - Python (BeautifulSoup, Selenium, Requests, Spotipy API, e.t.c)  
