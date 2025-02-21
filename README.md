@@ -1,5 +1,6 @@
 # Julius4120.github.io
 <hr>
+I'm new to all this😅.
 I do not really consider myself a programmer, I only write this script to decrease human workload, have fun and increase efficiency. Feel free to email me at opeayobello@gmail.com if you need me.
 </hr>
 A collection of my Python projects, including web scraping, automation scripts, and data extraction tools. Showcasing my skills in BeautifulSoup, Selenium, and API integration is listed below.
