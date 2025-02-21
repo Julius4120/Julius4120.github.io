@@ -1,5 +1,9 @@
 # Julius4120.github.io
-A collection of my Python projects, including web scraping, automation scripts, and data extraction tools. Showcasing my skills in BeautifulSoup, Selenium, and API integration
+<hr>
+I do not really consider myself a programmer, I only write this script to decrease human workload, have fun and increase efficiency. Feel free to email me at opeayobello@gmail.com if you need me.
+</hr>
+A collection of my Python projects, including web scraping, automation scripts, and data extraction tools. Showcasing my skills in BeautifulSoup, Selenium, and API integration is listed below.
+
 ## 🔹 Projects:
 - **[Time Machine (Spotify Playlist Creator)](https://github.com/Julius4120/Julius4120.github.io/blob/main/Time_machine.py)**  
   A time machine that takes you back in time and bring back some good memories. This script was one of my very first client projects. It automatically adds the top 100 songs of a particular year to a Spotify playlist.  
