@@ -7,7 +7,7 @@ import uuid
 import os
 import time
 
-API_URL = "https://script.google.com/macros/s/AKfycbxKm9Tv3eqVC2WH09gnAS7HvGD8BUE4viLq0S_M-zzP5DSON3Jfne3pjowUriiQtS6Jzw/exec"
+API_URL = "*********************"
 Font = "Comic Sans MS"
 
 
@@ -122,8 +122,6 @@ try :
 except Exception as e :
     pass
 
-# pyinstaller --noconfirm --onefile --windowed --add-data "11570247.png;assets/" --add-binary "chromedriver.exe;chromedriver.exe" Anime.py
-# pyinstaller --noconfirm --onefile --windowed --icon="Naruto.ico" --add-data "11570247.png;assets/" Anime.py
 
 
 
