@@ -23,8 +23,8 @@ while wrong:
     # Using an old version of website from web archive, The new one is rendered with js.
     try :
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36',
-            "Accept-Language": "en-US,en;q=0.9",
+            'User-Agent': '*******************',
+            "Accept-Language": "**************",
         }
         response = requests.get(url=f"https://web.archive.org/web/20240304020915/https://www.billboard.com/charts/hot-100/{date}/", headers=headers)
         web_data = response.text
@@ -43,10 +43,10 @@ while wrong:
     # Authenticating spotify
     from spotipy.oauth2 import SpotifyOAuth
 
-    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="a45e80a07b7e4f22b072f9801e2a92db",
-                                                   client_secret="c161b3bc952b42b4aa22b4a859794cfe",
-                                                   redirect_uri="https://www.google.com",
-                                                   scope="playlist-modify-private"))
+    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="***************",
+                                                   client_secret="************",
+                                                   redirect_uri="************",
+                                                   scope="****************"))
 
     # results = sp.current_user_saved_tracks()
     # for idx, item in enumerate(results['items'], start=1) :
@@ -54,13 +54,13 @@ while wrong:
     #     print(idx, track['artists'][0]['name'], " – ", track['name'])
 
     # user = sp.current_user()  # Used to get user id
-    user_id = "3163dv5ywa5wlldkjsk636ljfokm"
+    user_id = "****************"
 
 
     # Creating the playlist
     my_playlist = sp.user_playlist_create(user=f"{user_id}", name=f"{year} Top Tracks with Python Time Machine", public=False,
                                           description="Top Tracks from back in the Days")
-    print("aaa")
+   
 
     ids = []
     for index, title in enumerate(titles, start=1) :
@@ -73,7 +73,7 @@ while wrong:
             continue #Skip if song not found
 
     # Adding the songs to the playlist
-    basit = sp.playlist_add_items(playlist_id=my_playlist["id"], items=ids)
+    add_playlist = sp.playlist_add_items(playlist_id=my_playlist["id"], items=ids)
 
 
 
