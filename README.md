@@ -21,7 +21,6 @@ A collection of my Python projects, including web scraping, automation scripts, 
   
 - **[One Task](https://onetask-duuz.onrender.com/)** - A full-stack web application that lets you access your tasks from anywhere. Features a beautiful, responsive UI powered by a secure Flask REST API with user authentication. Create an account and your todo list will follow you on any device.
 
-
   ✨ Features:
   - User Registration & Login
   -  Secure REST API
@@ -30,8 +29,7 @@ A collection of my Python projects, including web scraping, automation scripts, 
   -  Clean & Modern UI
 
 - **[Flask Authentication practice](https://basit-test-page2.onrender.com/login)** - A functional web application demonstrating a complete user authentication system built with Flask. The project implements protected routes, user session management, and login redirects, serving as a practical example of core web security concepts.
-The core functionality is gating access to a downloadable resource (a fun PDF guide on Python) behind a login wall, forcing unauthorized users through the authentication workflow.  
-
+The core functionality is gating access to a downloadable resource (a fun PDF cheat_sheet on Python) behind a login wall, forcing unauthorized users through the authentication workflow.  
 
   Key Features Demonstrated:
   - User Registration & Login: Secure account creation and authentication.
@@ -41,7 +39,20 @@ The core functionality is gating access to a downloadable resource (a fun PDF gu
   - File Serving: Authorized users can download a static file (PDF) from a protected route.
   - Tech Stack: Flask, Flask-Login, Werkzeug Security, HTML, CSS.
 
+- **[🚀 AstroGym - VR Fitness Concept Landing Page](https://julius4120.github.io/Astrogym/)** - This project was a creative front-end challenge to conceptualize a next-generation gym. The core idea of AstroGym is to integrate Virtual Reality (VR) with a zero-gravity space aesthetic, transforming mundane workouts into an exciting interstellar adventure.
 
+    The goal of the landing page was to immediately capture this futuristic and energetic vibe  and also increase conversion ratio. I leveraged the powerful GSAP animation library to create smooth scroll-triggered animations, parallax        effects, and dynamic transitions that make the page feel alive and interactive, perfectly matching the innovative concept. It was quite a challenge cuz front-end is not rlly my thing.
+    Key Highlights:
+
+  - Immersive Concept: Designed to sell the vision of a VR-based, space-themed workout facility.
+
+  - Advanced Animations: Utilized GSAP for complex timeline animations and scroll-based effects for a narrative flow.
+
+  - Modern Frontend Stack: Built from scratch with pure HTML, CSS, and JavaScript for full creative control.
+
+  - Responsive Design: Ensures the cosmic experience is seamless across all device types.
+
+    
 ## 💻 Technologies Used:
 - Python (BeautifulSoup, Selenium, Requests, Spotipy API, e.t.c)
 - API Integration  
